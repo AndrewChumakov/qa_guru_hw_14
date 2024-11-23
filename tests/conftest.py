@@ -27,7 +27,7 @@ def browser_driver(request):
     browser_address = browser_address if browser_address is not None else DEFAULT_BROWSER_ADDRESS
     selenoid_login = os.getenv("SELENOID_LOGIN")
     selenoid_pass = os.getenv("SELENOID_PASS")
-    browser.config.base_url = "https://www.naumen.ru/"
+    browser.config.base_url = "https://helix.ru/"
     browser.config.window_height = 1080
     browser.config.window_width = 1920
     options = Options()
